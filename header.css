@@ -1,0 +1,180 @@
+.header {
+  background-color: #292e36;
+  /* min-height: 100vh; */
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  border-bottom: 1px solid #5c6168;
+}
+
+.header__top-phone {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  border: 2px solid #e1b168;
+  display: inline-block;
+  padding: 20px 57px;
+}
+.header__top-phone:hover {
+  color: #e1b168;
+  background-color: #fff;
+  border: 2px solid #fff;
+  transform: scale(1.05);
+}
+.logo {
+  max-width: 100%;
+}
+
+.header__top-button {
+  border: none;
+  background-color: #e1b168;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.44px;
+  color: #292e36;
+  padding: 20px 85px;
+  cursor: pointer;
+}
+.header__top-button:hover {
+  color: #e1b168;
+  background-color: #fff;
+  transform: scale(1.05);
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  position: relative;
+}
+.header__menu-list {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+
+  transition: all 0.3s;
+}
+
+.header__menu-link:hover {
+  color: #e1b168;
+}
+
+.menu-social {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  z-index: 3;
+}
+
+.menu-social svg path {
+  transition: all 0.3s;
+}
+.menu-social svg:hover path {
+  fill: #e1b168;
+}
+
+.header__content {
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+}
+.header__content-text {
+  align-self: center;
+  max-width: 655px;
+}
+.header__content-title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 110px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+.header__content-bottom-text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.header__content-link {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+  border: 2px solid #e1b168;
+  display: inline-block;
+  padding: 20px 57px;
+}
+.header__content-link:hover {
+  transform: scale(1.05);
+  color: #e1b168;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+.header__content-img {
+  width: 100%;
+}
+
+.menu__brg {
+  display: none;
+  position: relative;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.menu__brg::after,
+.menu__brg::before {
+  content: "";
+  background-color: #fff;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 0;
+}
+.menu__brg::after {
+  top: 0;
+}
+.menu__brg::before {
+  bottom: 0;
+}
+
+.menu__brg span {
+  background-color: #fff;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 9px;
+}

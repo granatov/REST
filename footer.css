@@ -1,0 +1,164 @@
+.footer {
+  background-color: #292e36;
+  padding-top: 130px;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 65px;
+}
+.footer__top-text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.footer__center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #575b62;
+  padding-bottom: 40px;
+}
+
+.footer__contacts .section__title,
+.footer__time .section__title {
+  color: #ffffff;
+}
+.footer__address {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-top: 34px;
+}
+.footer__phone {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+  display: block;
+}
+
+.footer__mail {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+  display: block;
+}
+
+.footer__time {
+  text-align: right;
+}
+.work__title {
+  margin-bottom: 34px;
+}
+.footer__time-item {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+}
+.footer__time-item span {
+  color: #ffffff;
+}
+.footer__input {
+  background-color: transparent;
+  border: 1px solid #858585;
+  padding: 18px 23px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  width: 100%;
+}
+.footer__input-content {
+  width: 100%;
+  max-width: 664px;
+}
+.footer__input-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__input-btn {
+  border: none;
+  background-color: #fff;
+  max-width: 208px;
+  padding: 17px 40px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+.footer__input-btn:hover {
+  color: #fff;
+  background-color: #e1b168;
+}
+
+.footer__input-text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  align-items: center;
+}
+.footer__copyright-text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.footer__copyright-text a {
+  color: #e1b168;
+}
+.footer__copyright-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+}

@@ -1,0 +1,821 @@
+.about {
+  background-color: #fff8f5;
+  /* margin-bottom: 140px; */
+}
+.about__contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 60px;
+}
+.about__contacts-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about__contacts-text-top {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+.about__contacts-text-bottom {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+
+.about__content {
+  display: flex;
+  gap: 45px;
+  padding: 84px 0 125px;
+  align-items: center;
+}
+.about__content-img {
+  width: 100%;
+  max-width: fit-content;
+}
+
+.about__content-text-top-title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  margin-bottom: 15px;
+}
+.about__content-text-top-p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin-bottom: 25px;
+}
+.about__content-text-bottom {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 15px;
+}
+.about__contacts-br {
+  display: none;
+}
+.about__content-text-bottom-title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  margin-bottom: 15px;
+}
+.about__content-text-bottom-text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+
+.about__content-text-signature-name {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin-bottom: 20px;
+}
+.menu__list {
+  width: 100%;
+}
+.menu__content {
+  max-width: 491px;
+}
+.menu__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 140px 0 200px;
+}
+
+.section__title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #292e36;
+  border-top: 1px solid #e1b168;
+  border-bottom: 1px solid #e1b168;
+  display: inline-block;
+  padding-top: 5px;
+}
+.menu__title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+  margin-top: 12px;
+  margin-bottom: 13px;
+}
+.menu__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin-bottom: 45px;
+}
+.menu__img {
+  margin-bottom: 60px;
+  max-width: 100%;
+}
+.menu__link {
+  display: block;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+  border: 2px solid #e1b168;
+  padding: 20px 57px;
+  max-width: 255px;
+}
+.menu__link:hover {
+  color: #fff;
+  transform: scale(1.05);
+  background-color: #e1b168;
+}
+.menu__list-item + .menu__list-item {
+  margin-top: 75px;
+}
+.menu__list-item-title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  margin-bottom: 40px;
+}
+.menu__list-item-positions + .menu__list-item-positions {
+  margin-top: 50px;
+}
+.menu__list-item-position {
+  display: flex;
+  align-items: center;
+}
+
+.menu__list-item-position-text {
+  margin-left: 20px;
+  width: 100%;
+}
+.menu__list-item-position-title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+.menu__list-item-position-bottom-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.menu__list-item-position-about {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+.menu__list-item-position-price {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  margin-left: 10px;
+}
+
+.feedback {
+  background-color: #292e36;
+  padding: 140px 0 120px;
+}
+.feedback__content {
+  margin-bottom: 80px;
+}
+
+.feedback__content .section__title {
+  color: #ffffff;
+  text-align: center;
+}
+
+.feedback__title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.feedback__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.feedback__slider-item {
+  background-color: #343942;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 544px;
+  width: 100%;
+}
+
+.feedback__slider-item + .feedback__slider-item {
+  margin-left: 30px;
+}
+.feedback__slider-item-top {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.feedback__slider-item-avatar {
+  position: relative;
+}
+.feedback__slider-item-avatar::before {
+  content: "";
+  position: absolute;
+  background-image: url(template/quotes.svg);
+  width: 30px;
+  height: 30px;
+  left: 0;
+  top: 0;
+}
+
+.feedback__slider-item-person {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.feedback__slider-item-city {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+}
+.feedback__slider-item-text {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+}
+.feedback__line {
+  width: 100%;
+  height: 1px;
+  background: #797e89;
+  margin: 30px 0;
+}
+.lights {
+  background-image: url(template/lights.jpg);
+  min-height: 58vh;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.offers {
+  margin: 140px 0 120px;
+}
+.offers__top {
+  text-align: center;
+  max-width: 813px;
+  margin: 0 auto;
+}
+
+.offers__title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.offers__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin-bottom: 40px;
+}
+.offers__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.burger {
+  background-image: url(template/test__bg.png);
+  background-repeat: no-repeat;
+  padding: 50px 40px;
+  max-width: 665px;
+  background-size: cover;
+}
+.pizza {
+  background-image: url(template/pizzaBG.png);
+  background-repeat: no-repeat;
+  padding: 50px 40px;
+  background-size: cover;
+  max-width: 665px;
+}
+.offers__item-price {
+  background-image: url(template/white_price-bg.png);
+  background-repeat: no-repeat;
+
+  margin-left: 0px;
+  margin-bottom: 30px;
+  display: inline-block;
+  background-position: center;
+}
+.offers__item-price.pizza-price {
+  color: #ffffff;
+  background-image: url(template/dark_price-bg.png);
+}
+.offers__item-content {
+  display: flex;
+  align-items: center;
+}
+
+.offers__item-price {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 10px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #292e36;
+  text-align: center;
+  padding: 16px 50px;
+  margin-bottom: 30px;
+}
+.offers__item-price span {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.2px;
+}
+.offers__item-percent {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  color: #292e36;
+  border-top: 1px solid #292e36;
+  border-bottom: 1px solid #292e36;
+  display: inline-block;
+  padding-top: 5px;
+  margin-bottom: 8px;
+}
+.offers__item-title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  margin-bottom: 5px;
+}
+.offers__item-bottom {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+.offers__item-img {
+  max-width: 100%;
+}
+.dishes {
+  margin-bottom: 140px;
+}
+.dishes__content {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.dishes__title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+}
+.dishes__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #555555;
+  margin-bottom: 50px;
+}
+.dishes__items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.dishes__item {
+  max-width: 318px;
+}
+.dishes__item-img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.dishes__item-title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dishes__item-line {
+  background: #dcdcdc;
+  height: 2px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.dishes__item-text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+
+.dishes__link {
+  display: block;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #e1b168;
+  border: 2px solid #e1b168;
+  padding: 20px 57px;
+  margin: 0 auto;
+  max-width: 255px;
+  height: 73px;
+}
+.dishes__link:hover {
+  color: #fff;
+  background-color: #e1b168;
+  transform: scale(1.05);
+}
+
+.services {
+  background-color: #292e36;
+  margin-bottom: 140px;
+}
+
+.services__inner {
+  padding: 140px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services__content {
+  max-width: 448px;
+}
+.services__content .section__title {
+  color: #ffffff;
+}
+.services__title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  color: #ffffff;
+}
+.services__text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.services__items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 30px;
+}
+.services__item {
+  padding: 30px 60px;
+  border: 20px solid #323841;
+  max-width: 254px;
+}
+.service__item-text {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.blog__content {
+  text-align: center;
+  max-width: 465px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.blog__content-title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.blog__content-text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+.blog__items {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 150px;
+}
+.blog__item {
+  max-width: 640px;
+}
+.blog__item-top {
+  background-image: url(template/stotyblog_bg.jpg);
+  padding: 156px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog__item-link {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  display: block;
+  background-color: #e1b168;
+  padding: 20px;
+  max-width: 227px;
+  text-align: center;
+  letter-spacing: 0.44px;
+  margin: 0 auto;
+  color: #292e36;
+}
+.blog__item-link:hover {
+  color: #e1b168;
+  background-color: #fff;
+  transform: scale(1.05);
+}
+.blog__item-content {
+  border: 1px solid #c4c4c4;
+  border-top: none;
+  padding: 50px 46px 38px;
+}
+.blog__date {
+  margin-left: 30px;
+}
+.blog__item-title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #292e36;
+  margin: 25px 0 24px;
+}
+.blog__item-text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+
+.blog__second {
+  background-image: url(template/foodblog_bg.jpg);
+}
+
+.booking {
+  background-image: url(template/booking_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.booking__form {
+  background-color: rgba(41, 46, 54, 0.95);
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 140px 140px 154px;
+  text-align: center;
+}
+
+.booking__form-content .section__title {
+  color: #ffffff;
+}
+.booking__form-title {
+  margin-top: 12px;
+  margin-bottom: 38px;
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.booking__form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+  justify-content: center;
+}
+.booking__form-button {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #000000;
+  background-color: #fff;
+  width: 242px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 18px 0px 12px;
+  border: none;
+}
+.booking__form-button:hover {
+  color: #fff;
+  background-color: #e1b168;
+  transform: scale(1.05);
+}
+.booking__input {
+  background-color: transparent;
+  border: 1px solid #858585;
+  padding: 18px 23px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.name {
+  max-width: 307px;
+  width: 100%;
+}
+.email {
+  max-width: 307px;
+  width: 100%;
+}
+.number {
+  max-width: 198px;
+  width: 100%;
+}
+.time {
+  max-width: 198px;
+  width: 100%;
+}
+.date {
+  max-width: 198px;
+  width: 100%;
+  color: #fff;
+}
+.booking__input::placeholder {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  opacity: 0.7;
+}
