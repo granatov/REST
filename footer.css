@@ -114,6 +114,7 @@
   text-align: center;
   letter-spacing: 0.2px;
   color: #000000;
+  margin-left: -3px;
 }
 .footer__input-btn:hover {
   color: #fff;
